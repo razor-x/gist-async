@@ -1,0 +1,24 @@
+{
+  "name": "coffeescript-package",
+  "version": "0.0.0",
+  "authors": [
+    "Your Name <you@example.com>"
+  ],
+  "description": "Package description.",
+  "main": "javascripts/main.coffee",
+  "keywords": [
+    "coffeescript",
+    "javascript"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/razor-x/coffeescript-package",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests",
+    "build",
+    "Gruntfile.coffee"
+  ]
+}
