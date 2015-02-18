@@ -49,7 +49,8 @@ demonstration purposes only and does not apply to this software.
 4. Customize `bower.json`.
 
 5. Replace any remaining instances of the placeholder package name.
-   You can replace the placeholder package name with your own using
+   You can replace the placeholder package name and GitHub username
+   with your own using
 
 ````bash
 $ git ls-files -z | xargs -0 sed -i 's/coffeescript-package/your-package/g'
