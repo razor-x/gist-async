@@ -52,10 +52,10 @@ demonstration purposes only and does not apply to this software.
    You can replace the placeholder package name and GitHub username
    with your own using
 
-````bash
+```bash
 $ git ls-files -z | xargs -0 sed -i 's/coffeescript-package/your-package/g'
 $ git ls-files -z | xargs -0 sed -i 's/razor-x/your_username/g'
-````
+```
 
 Note that `CHANGELOG.md` is just a template for this skeleton.
 The actual changes for this project are documented in the commit history
@@ -69,38 +69,38 @@ and summarized under [Releases].
 If you want to merge in future updates from this skeleton and have your own origin,
 set up a separate branch to track this.
 
-````bash
+```bash
 $ git remote rename origin upstream
 $ git branch coffeescript-package
 $ git branch -u upstream/master coffeescript-package
-````
+```
 
 Then add an origin and push master
 
-````bash
+```bash
 $ git remote add origin git@github.com:your_username/your-package.git
 $ git push -u origin master
-````
+```
 
 Now, the `coffeescript-package` branch will pull changes from this project,
 which you can then merge into your other branches.
 
 If you later clone your repo you will need to create the update branch again.
 
-````bash
+```bash
 $ git remote add upstream https://github.com/razor-x/coffeescript-package.git
 $ git fetch upstream
 $ git checkout -b coffeescript-package upstream/master
-````
+```
 
 ## Installation
 
 The recommended method is to add this as a dependency
 to your project using [Bower] with
 
-````bash
+```bash
 $ bower install --save coffeescript-package
-````
+```
 
 Alternatively, you can download a [release][Releases]
 or clone the repository directly.
@@ -115,9 +115,9 @@ The [coffeescript-package](https://github.com/razor-x/coffeescript-package)
 source is hosted on GitHub.
 To clone the project run
 
-````bash
+```bash
 $ git clone https://github.com/razor-x/coffeescript-package.git
-````
+```
 
 ### Requirements
 
@@ -125,19 +125,19 @@ You will need [npm] with [Grunt] and [Bower].
 
 Install the development dependencies with
 
-````bash
+```bash
 $ npm install
-````
+```
 
 ### Grunt
 
 Run `grunt --help` to see all Grunt tasks.
 
-````
+```
 grunt coffee  # Compile CoffeeScript to JavaScript
 grunt clean   # Remove build directory
 grunt watch   # Have Grunt watch for changes
-````
+```
 
 ## Contributing
 
