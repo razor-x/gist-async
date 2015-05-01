@@ -22,7 +22,6 @@ Use this project freely as a base for your [CoffeeScript] packages.
 * [EditorConfig].
 * Badges from [Shields.io]!
 
-[Bundler]: http://bundler.io/
 [EditorConfig]: http://editorconfig.org/
 [Grunt]: http://gruntjs.com/
 [npm]: https://www.npmjs.com/
@@ -105,8 +104,6 @@ $ bower install --save coffeescript-package
 Alternatively, you can download a [release][Releases]
 or clone the repository directly.
 
-[Bower]: http://bower.io/
-
 ## Development and Testing
 
 ### Source Code
@@ -127,6 +124,7 @@ Install the development dependencies with
 
 ```bash
 $ npm install
+$ bower install
 ```
 
 ### Grunt
@@ -138,6 +136,10 @@ grunt coffee  # Compile CoffeeScript to JavaScript
 grunt clean   # Remove build directory
 grunt watch   # Have Grunt watch for changes
 ```
+
+[Bower]: http://bower.io/
+[Grunt]: http://gruntjs.com/
+[npm]: https://www.npmjs.com/
 
 ## Contributing
 
