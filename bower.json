@@ -11,7 +11,7 @@
     "javascript"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/razor-x/coffeescript-package",
+  "homepage": "https://github.com/makenew/coffeescript-package",
   "ignore": [
     "**/.*",
     "node_modules",

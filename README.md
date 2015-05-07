@@ -4,8 +4,8 @@
 [![Bower Version](https://img.shields.io/bower/v/coffeescript-package.svg)](http://bower.io/search/?q=coffeescript-package)
 -->
 [![MIT License](https://img.shields.io/badge/license-MIT-red.svg)](./LICENSE.txt)
-[![Dependency Status](https://img.shields.io/gemnasium/razor-x/coffeescript-package.svg)](https://gemnasium.com/razor-x/coffeescript-package)
-[![Build Status](https://img.shields.io/travis/razor-x/coffeescript-package.svg)](https://travis-ci.org/razor-x/coffeescript-package)
+[![Dependency Status](https://img.shields.io/gemnasium/makenew/coffeescript-package.svg)](https://gemnasium.com/makenew/coffeescript-package)
+[![Build Status](https://img.shields.io/travis/makenew/coffeescript-package.svg)](https://travis-ci.org/makenew/coffeescript-package)
 
 Use this project freely as a base for your [CoffeeScript] packages.
 
@@ -53,14 +53,14 @@ demonstration purposes only and does not apply to this software.
 
 ```bash
 $ git ls-files -z | xargs -0 sed -i 's/coffeescript-package/your-package/g'
-$ git ls-files -z | xargs -0 sed -i 's/razor-x/your_username/g'
+$ git ls-files -z | xargs -0 sed -i 's/makenew/your_username/g'
 ```
 
 Note that `CHANGELOG.md` is just a template for this skeleton.
 The actual changes for this project are documented in the commit history
 and summarized under [Releases].
 
-[Releases]: https://github.com/razor-x/coffeescript-package/releases
+[Releases]: https://github.com/makenew/coffeescript-package/releases
 [The Unlicense]: http://unlicense.org/UNLICENSE
 
 #### Add future update support
@@ -87,7 +87,7 @@ which you can then merge into your other branches.
 If you later clone your repo you will need to create the update branch again.
 
 ```bash
-$ git remote add upstream https://github.com/razor-x/coffeescript-package.git
+$ git remote add upstream https://github.com/makenew/coffeescript-package.git
 $ git fetch upstream
 $ git checkout -b coffeescript-package upstream/master
 ```
@@ -108,12 +108,12 @@ or clone the repository directly.
 
 ### Source Code
 
-The [coffeescript-package](https://github.com/razor-x/coffeescript-package)
+The [coffeescript-package](https://github.com/makenew/coffeescript-package)
 source is hosted on GitHub.
 To clone the project run
 
 ```bash
-$ git clone https://github.com/razor-x/coffeescript-package.git
+$ git clone https://github.com/makenew/coffeescript-package.git
 ```
 
 ### Requirements
@@ -147,7 +147,7 @@ Please submit and comment on bug reports and feature requests.
 
 To submit a patch:
 
-1. Fork it (https://github.com/razor-x/coffeescript-package/fork).
+1. Fork it (https://github.com/makenew/coffeescript-package/fork).
 2. Create your feature branch (`git checkout -b my-new-feature`).
 3. Make changes.
 4. Commit your changes (`git commit -am 'Add some feature'`).
