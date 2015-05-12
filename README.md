@@ -108,8 +108,8 @@ or clone the repository directly.
 
 ### Source Code
 
-The [coffeescript-package](https://github.com/makenew/coffeescript-package)
-source is hosted on GitHub.
+The [coffeescript-package source](https://github.com/makenew/coffeescript-package)
+is hosted on GitHub.
 To clone the project run
 
 ```bash
