@@ -23,7 +23,6 @@ https://codepen.io/razorx/pen/mGKih
 https://gist.github.com/markselby/7209751
 
 **This version by Evan Sosenko**:
-https://gist.github.com/razor-x/8288761
 
 ## Usage
 
