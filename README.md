@@ -60,6 +60,8 @@ $ bower install --save gist-async
 Alternatively, you can download a [release][Releases]
 or clone the repository directly.
 
+[Releases]: https://github.com/razor-x/gist-async/releases
+
 ## Development and Testing
 
 ### Source Code
