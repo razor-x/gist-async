@@ -14,8 +14,6 @@ This allows you to keep related files in a single gist,
 but show them individually on your pages.
 The async loading prevents your page rendering from stalling.
 
-_Jekyll plugin included that modifies the gist markup added by its gist Liquid tag._
-
 **Demo on CodePen**:
 https://codepen.io/razorx/pen/mGKih
 
@@ -44,6 +42,15 @@ The minimal required markup is
 ```html
 <div data-gist="8288761"></div>
 ```
+
+## Plugins
+
+All plugins can be found here:
+[gist.github.com/razor-x/2f62cff9eaae2fcd8cee](https://gist.github.com/razor-x/2f62cff9eaae2fcd8cee)
+
+* [Jekyll plugin] that modifies the gist markup added by its gist Liquid tag.
+
+[Jekyll plugin]: https://gist.github.com/razor-x/2f62cff9eaae2fcd8cee#file-tag-gist-rb
 
 ## Installation
 
