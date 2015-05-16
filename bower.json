@@ -1,17 +1,19 @@
 {
-  "name": "coffeescript-package",
+  "name": "gist-async",
   "version": "0.0.0",
   "authors": [
-    "Your Name <you@example.com>"
+    "Evan Sosenko <razorx@evansosenko.com>"
   ],
-  "description": "Package description.",
+  "description": "Load GitHub Gists asynchronously.",
   "main": "javascripts/main.coffee",
   "keywords": [
+    "gist",
+    "asynchronous",
     "coffeescript",
     "javascript"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/makenew/coffeescript-package",
+  "homepage": "https://github.com/razor-x/gist-async",
   "ignore": [
     "**/.*",
     "node_modules",

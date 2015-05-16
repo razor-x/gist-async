@@ -1,95 +1,49 @@
-# CoffeeScript Package Skeleton
+# gist-async
 
-<!--
-[![Bower Version](https://img.shields.io/bower/v/coffeescript-package.svg)](http://bower.io/search/?q=coffeescript-package)
--->
-[![MIT License](https://img.shields.io/github/license/makenew/coffeescript-package.svg)](./LICENSE.txt)
-[![Dependency Status](https://img.shields.io/gemnasium/makenew/coffeescript-package.svg)](https://gemnasium.com/makenew/coffeescript-package)
-[![Build Status](https://img.shields.io/travis/makenew/coffeescript-package.svg)](https://travis-ci.org/makenew/coffeescript-package)
+[![Bower Version](https://img.shields.io/bower/v/gist-async.svg)](http://bower.io/search/?q=gist-async)
+[![MIT License](https://img.shields.io/github/license/razor-x/gist-async.svg)](./LICENSE.txt)
+[![Dependency Status](https://img.shields.io/gemnasium/razor-x/gist-async.svg)](https://gemnasium.com/razor-x/gist-async)
+[![Build Status](https://img.shields.io/travis/razor-x/gist-async.svg)](https://travis-ci.org/razor-x/gist-async)
 
-Use this project freely as a base for your [CoffeeScript] packages.
-
-[CoffeeScript]: http://coffeescript.org/
+Load GitHub Gists asynchronously.
 
 ## Description
 
-### Features
+Load GitHub Gists asynchronously and optionally specify which file to show.
+This allows you to keep related files in a single gist,
+but show them individually on your pages.
+The async loading prevents your page rendering from stalling.
 
-* [Bower] package structure.
-* [Grunt] tasks for development.
-* Node package management with [npm].
-* [Travis CI] ready.
-* [EditorConfig].
-* Badges from [Shields.io]!
+_Jekyll plugin included that modifies the gist markup added by its gist Liquid tag._
 
-[EditorConfig]: http://editorconfig.org/
-[Grunt]: http://gruntjs.com/
-[npm]: https://www.npmjs.com/
-[Shields.io]: http://shields.io/
-[Travis CI]: https://travis-ci.org/
+**Demo on CodePen**:
+https://codepen.io/razorx/pen/mGKih
 
-### Usage
+**Based on Mark Selby's async-gists.js**:
+https://gist.github.com/markselby/7209751
 
-This software can be used freely, see [The Unlicense].
-The MIT License text appearing in this software is for
-demonstration purposes only and does not apply to this software.
+**This version by Evan Sosenko**:
+https://gist.github.com/razor-x/8288761
 
-1. Clone this repository or download a [release][Releases].
+## Usage
 
-2. Customize this README.
-   - Set the title and summary text.
-   - Replace the Description section.
-   - Update the Source section.
-   - Update the Contributing section.
-   - Remove or update the badges.
+**Requires jQuery.**
 
-3. Set the copyright year and owner in `LICENSE.txt`.
+Include `javascripts/main.coffee` however you like,
+or load the compiled file `js/gist-async.min.js`.
 
-4. Customize `bower.json`.
+Example markup:
 
-5. Replace any remaining instances of the placeholder package name.
-   You can replace the placeholder package name and GitHub username
-   with your own using
-
-```bash
-$ git ls-files -z | xargs -0 sed -i 's/coffeescript-package/your-package/g'
-$ git ls-files -z | xargs -0 sed -i 's/makenew/your_username/g'
+```html
+<div class="gist" data-gist="8288761" data-gist-file="gist-async.coffee">
+  <a href="https://gist.github.com/8288761">Loading file gist-async.coffee from 8288761</a>
+</div>
 ```
 
-Note that `CHANGELOG.md` is just a template for this skeleton.
-The actual changes for this project are documented in the commit history
-and summarized under [Releases].
+The minimal required markup is
 
-[Releases]: https://github.com/makenew/coffeescript-package/releases
-[The Unlicense]: http://unlicense.org/UNLICENSE
-
-#### Add future update support
-
-If you want to merge in future updates from this skeleton and have your own origin,
-set up a separate branch to track this.
-
-```bash
-$ git remote rename origin upstream
-$ git branch coffeescript-package
-$ git branch -u upstream/master coffeescript-package
-```
-
-Then add an origin and push master
-
-```bash
-$ git remote add origin git@github.com:your_username/your-package.git
-$ git push -u origin master
-```
-
-Now, the `coffeescript-package` branch will pull changes from this project,
-which you can then merge into your other branches.
-
-If you later clone your repo you will need to create the update branch again.
-
-```bash
-$ git remote add upstream https://github.com/makenew/coffeescript-package.git
-$ git fetch upstream
-$ git checkout -b coffeescript-package upstream/master
+```html
+<div data-gist="8288761"></div>
 ```
 
 ## Installation
@@ -98,7 +52,7 @@ The recommended method is to add this as a dependency
 to your project using [Bower] with
 
 ```bash
-$ bower install --save coffeescript-package
+$ bower install --save gist-async
 ```
 
 Alternatively, you can download a [release][Releases]
@@ -108,12 +62,12 @@ or clone the repository directly.
 
 ### Source Code
 
-The [coffeescript-package source](https://github.com/makenew/coffeescript-package)
+The [gist-async source](https://github.com/razor-x/gist-async)
 is hosted on GitHub.
 To clone the project run
 
 ```bash
-$ git clone https://github.com/makenew/coffeescript-package.git
+$ git clone https://github.com/razor-x/gist-async.git
 ```
 
 ### Requirements
@@ -147,7 +101,7 @@ Please submit and comment on bug reports and feature requests.
 
 To submit a patch:
 
-1. Fork it (https://github.com/makenew/coffeescript-package/fork).
+1. Fork it (https://github.com/razor-x/gist-async/fork).
 2. Create your feature branch (`git checkout -b my-new-feature`).
 3. Make changes.
 4. Commit your changes (`git commit -am 'Add some feature'`).
