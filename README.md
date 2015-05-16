@@ -45,9 +45,6 @@ The minimal required markup is
 
 ## Plugins
 
-All plugins can be found here:
-[gist.github.com/razor-x/2f62cff9eaae2fcd8cee](https://gist.github.com/razor-x/2f62cff9eaae2fcd8cee)
-
 * [Jekyll plugin] that modifies the gist markup added by its gist Liquid tag.
 
 [Jekyll plugin]: https://gist.github.com/razor-x/2f62cff9eaae2fcd8cee#file-tag-gist-rb
