@@ -4,12 +4,12 @@ node_js: [ iojs ]
 cache:
   directories:
     - bower_components
+    - node_modules
 sudo: false
 
 before_script:
   - npm install -g grunt-cli
   - npm install -g bower
-  - npm install
   - bower install
 
 script: grunt
