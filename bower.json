@@ -22,5 +22,8 @@
     "tests",
     "build",
     "Gruntfile.coffee"
-  ]
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
 }
