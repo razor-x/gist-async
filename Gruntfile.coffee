@@ -12,8 +12,13 @@ module.exports = (grunt) ->
         files:
           'build/main.js': 'javascripts/main.coffee'
 
+    uglify:
+      js:
+        files:
+          'js/gist-async.min.js': ['build/main.js']
+
     watch:
       files: ['javascripts/**/*.coffee']
       tasks: ['coffee']
 
-  grunt.registerTask 'default', ['clean', 'coffee']
+  grunt.registerTask 'default', ['clean', 'coffee', 'uglify']
