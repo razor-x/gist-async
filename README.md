@@ -45,8 +45,11 @@ The minimal required markup is
 ## Plugins
 
 * [Jekyll plugin] that modifies the gist markup added by its gist Liquid tag.
+* [WordPress shortcode] by [timrourke].
 
-[Jekyll plugin]: https://gist.github.com/razor-x/2f62cff9eaae2fcd8cee#file-tag-gist-rb
+[Jekyll plugin]: https://gist.github.com/razor-x/2f62cff9eaae2fcd8cee
+[timrourke]: https://github.com/timrourke
+[WordPress shortcode]: https://gist.github.com/razor-x/c538b7a7c156956451b0
 
 ## Installation
 
