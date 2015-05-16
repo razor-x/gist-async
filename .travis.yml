@@ -13,3 +13,11 @@ before_script:
   - bower install
 
 script: grunt
+
+deploy:
+  provider: releases
+  api_key:
+    secure: eb+vsBjLYN8f2XzpoCLhcqjcdpaLYH+hzh0cGIiVkHFofmJ8RrTBykL2DqpfYOMKpPcmSV7bJ5cI/ZpFuj/REG68Spv1IRZednjYg9KmjqQWKcWsz/25Xou9AEiVZoUItNs77/uwdrjjfqX+90eNBtOw0XCbimtHlrg2GPHr2CnjoGzu7Rg5BZFY163X1F8pHaLCl1PCSODi3aY7Nce9F1cnximjyveaYs6u6CQeViA++e1f5B+X26Z7QsNbHard75vJFrbmEPLRbbVtXh+qk7FAqFidwWUCpBOrVAUwqiu0YKOtlNrO7Rn//7f5sY/J36y/LwbuyOP7VS9sQccPhHH/8C/v0GXVnFdhA2pnlkHtah4vCxUT+Nfn0McWSpX3lzfrlrSFBv/3rfjfLDuSVDJKtmc7U2ZP5f5bulDfSVljFCCKHiah3R+duCPSsAP0kFk1B9crcOHK8dklPcNkTt0UbD5RgVKFw8LjJyCgSacM8bshoM9Br0Wpsnv+4jYSHKtkDMpI39eOWRGgZPfy3FwqPse3XFt1D6Dha/oatuGNE4HmILICZK0na+dwsBORcm1crJ0ZMG02v0r0lCt4ykrZkSAjGfQSLgy2UDvCWCHGB+u5z7UWQGKHGOJ6T4J45ktFQ4vSs+mlitLCuZTzBlGBrQYG1mPGm4mw42RMmpM=
+  file: js/gist-async.min.js
+  on:
+    tags: true
