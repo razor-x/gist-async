@@ -13,6 +13,7 @@
 #
 'use strict'
 
+$ = jQuery
 $ ->
   GIST_HOST = 'https://gist.github.com'
   elements = $('div[data-gist]')
