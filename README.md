@@ -5,7 +5,9 @@
 [![Dependency Status](https://img.shields.io/gemnasium/razor-x/gist-async.svg)](https://gemnasium.com/razor-x/gist-async)
 [![Build Status](https://img.shields.io/travis/razor-x/gist-async.svg)](https://travis-ci.org/razor-x/gist-async)
 
-Load GitHub Gists asynchronously.
+by Evan Sosenko
+
+_Load GitHub Gists asynchronously._
 
 ## Description
 
@@ -14,13 +16,10 @@ This allows you to keep related files in a single gist,
 but show them individually on your pages.
 The async loading prevents your page rendering from stalling.
 
-**Demo on CodePen**:
-https://codepen.io/razorx/pen/mGKih
+[Demo on CodePen](https://codepen.io/razorx/pen/mGKih).
 
-**Based on Mark Selby's async-gists.js**:
-https://gist.github.com/markselby/7209751
-
-**This version by Evan Sosenko**:
+Based on Mark Selby's [async-gists.js].
+[async-gists.js]: https://gist.github.com/markselby/7209751
 
 ## Usage
 
