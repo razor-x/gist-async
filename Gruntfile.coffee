@@ -12,8 +12,11 @@ module.exports = (grunt) ->
         files:
           'build/main.js': 'javascripts/main.coffee'
 
+    coffeelint:
+      javascripts: ['javascripts/*.coffee']
+
     watch:
       files: ['javascripts/**/*.coffee']
-      tasks: ['coffee']
+      tasks: ['coffeelint', 'coffee']
 
-  grunt.registerTask 'default', ['clean', 'coffee']
+  grunt.registerTask 'default', ['clean', 'coffeelint', 'coffee']
