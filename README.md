@@ -51,7 +51,7 @@ demonstration purposes only and does not apply to this software.
    You can replace the placeholder package name and GitHub username
    with your own using
 
-```bash
+```
 $ git ls-files -z | xargs -0 sed -i 's/coffeescript-package/your-package/g'
 $ git ls-files -z | xargs -0 sed -i 's/makenew/your_username/g'
 ```
@@ -95,7 +95,7 @@ $ git merge upstream/master
 The recommended method is to add this as a dependency
 to your project using [Bower] with
 
-```bash
+```
 $ bower install --save coffeescript-package
 ```
 
@@ -110,7 +110,7 @@ The [coffeescript-package source](https://github.com/makenew/coffeescript-packag
 is hosted on GitHub.
 To clone the project run
 
-```bash
+```
 $ git clone https://github.com/makenew/coffeescript-package.git
 ```
 
@@ -120,7 +120,7 @@ You will need [npm] with [Grunt] and [Bower].
 
 Install the development dependencies with
 
-```bash
+```
 $ npm install
 $ bower install
 ```
