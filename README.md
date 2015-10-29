@@ -51,10 +51,10 @@ demonstration purposes only and does not apply to this software.
    You can replace the placeholder package name and GitHub username
    with your own using
 
-```
-$ git ls-files -z | xargs -0 sed -i 's/coffeescript-package/your-package/g'
-$ git ls-files -z | xargs -0 sed -i 's/makenew/your_username/g'
-```
+   ```
+   $ git ls-files -z | xargs -0 sed -i 's/coffeescript-package/your-package/g'
+   $ git ls-files -z | xargs -0 sed -i 's/makenew/your_username/g'
+   ```
 
 Note that `CHANGELOG.md` is just a template for this skeleton.
 The actual changes for this project are documented in the commit history
