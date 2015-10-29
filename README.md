@@ -63,33 +63,31 @@ and summarized under [Releases].
 [Releases]: https://github.com/makenew/coffeescript-package/releases
 [The Unlicense]: http://unlicense.org/UNLICENSE
 
-#### Add future update support
+### Updating
 
-If you want to merge in future updates from this skeleton and have your own origin,
-set up a separate branch to track this.
+If you want to pull in future updates from this skeleton,
+you can fetch and merge in changes from this repository.
 
-```bash
+If this repository is already set as `origin`,
+rename it to `upstream` with
+
+```
 $ git remote rename origin upstream
-$ git branch coffeescript-package
-$ git branch -u upstream/master coffeescript-package
 ```
 
-Then add an origin and push master
+and then configure your `origin` branch as normal.
 
-```bash
-$ git remote add origin git@github.com:your_username/your-package.git
-$ git push -u origin master
+Otherwise, add this as a new remote with
+
 ```
-
-Now, the `coffeescript-package` branch will pull changes from this project,
-which you can then merge into your other branches.
-
-If you later clone your repo you will need to create the update branch again.
-
-```bash
 $ git remote add upstream https://github.com/makenew/coffeescript-package.git
+```
+
+You can then fetch and merge changes with
+
+```
 $ git fetch upstream
-$ git checkout -b coffeescript-package upstream/master
+$ git merge upstream/master
 ```
 
 ## Installation
