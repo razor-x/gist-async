@@ -1,11 +1,11 @@
 {
   "name": "coffeescript-package",
   "version": "0.0.0",
+  "description": "Package description.",
+  "main": "javascripts/main.coffee",
   "authors": [
     "Your Name <you@example.com>"
   ],
-  "description": "Package description.",
-  "main": "javascripts/main.coffee",
   "keywords": [
     "coffeescript",
     "javascript"
