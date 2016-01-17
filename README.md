@@ -10,21 +10,19 @@
 [![Dependency Status](https://img.shields.io/gemnasium/makenew/coffeescript-package.svg)](https://gemnasium.com/makenew/coffeescript-package)
 [![Build Status](https://img.shields.io/travis/makenew/coffeescript-package.svg)](https://travis-ci.org/makenew/coffeescript-package)
 
-Use this project freely as a base for your [CoffeeScript] packages.
-
-[CoffeeScript]: http://coffeescript.org/
-
 ## Description
+
+Bootstrap a new [CoffeeScript] package in less than five minutes.
 
 ### Features
 
-* [Bower] package structure.
+* [Bower] and [npm] package structure.
 * [Grunt] tasks for development.
-* Node package management with [npm].
 * [Travis CI] ready.
 * [EditorConfig].
-* Badges from [Shields.io]!
+* Badges from [Shields.io].
 
+[CoffeeScript]: http://coffeescript.org/
 [EditorConfig]: http://editorconfig.org/
 [Grunt]: http://gruntjs.com/
 [npm]: https://www.npmjs.com/
@@ -96,7 +94,13 @@ $ git merge upstream/master
 ## Installation
 
 The recommended method is to add this as a dependency
-to your project using [Bower] with
+to your project using [npm] with
+
+```
+$ npm Install --save coffeescript-package
+```
+
+or [Bower] with
 
 ```
 $ bower install --save coffeescript-package
@@ -105,42 +109,55 @@ $ bower install --save coffeescript-package
 Alternatively, you can download a [release][Releases]
 or clone the repository directly.
 
+[Bower]: http://bower.io/
+[npm]: https://www.npmjs.com/
+[Releases]: https://github.com/makenew/coffeescript-package/releases
+
 ## Development and Testing
 
 ### Source Code
 
-The [coffeescript-package source](https://github.com/makenew/coffeescript-package)
-is hosted on GitHub.
+The [coffeescript-package source] is hosted on GitHub.
 To clone the project run
 
 ```
 $ git clone https://github.com/makenew/coffeescript-package.git
 ```
 
+[coffeescript-package source]: https://github.com/makenew/coffeescript-package
+
 ### Requirements
 
-You will need [npm] with [Grunt] and [Bower].
+You will need [Node.js] with [npm].
 
 Install the development dependencies with
 
 ```
 $ npm install
-$ bower install
 ```
+
+[Node.js]: https://nodejs.org/
 
 ### Grunt
 
-Run `grunt --help` to see all Grunt tasks.
+Optionally, you may run addtional development tasks with [Grunt].
+Install it with
 
 ```
-grunt coffee  # Compile CoffeeScript to JavaScript
-grunt clean   # Remove build directory
-grunt watch   # Have Grunt watch for changes
+$ npm Install --global grunt-cli
 ```
 
-[Bower]: http://bower.io/
+Run `$ grunt --help` to see all Grunt tasks.
+
+```
+coffeelint # Validate files with CoffeeLint *
+clean      # Clean files and folders. *
+coffee     # Compile CoffeeScript files into JavaScript *
+watch      # Run predefined tasks whenever watched files change.
+default    # Alias for "clean", "coffeelint", "coffee" tasks.
+```
+
 [Grunt]: http://gruntjs.com/
-[npm]: https://www.npmjs.com/
 
 ## Contributing
 
