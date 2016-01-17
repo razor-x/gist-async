@@ -46,7 +46,7 @@ demonstration purposes only and does not apply to this software.
 
 3. Set the copyright year and owner in `LICENSE.txt`.
 
-4. Customize `bower.json`.
+4. Customize `package.json and `bower.json`.
 
 5. Replace any remaining instances of the placeholder package name.
    You can replace the placeholder package name and GitHub username

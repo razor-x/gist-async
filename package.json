@@ -1,9 +1,26 @@
 {
+  "name": "coffeescript-package",
+  "version": "0.0.0",
+  "description": "Package description.",
+  "main": "javascripts/main.coffee",
+  "keywords": [
+    "coffeescript",
+    "javascript"
+  ],
+  "homepage": "https://github.com/makenew/coffeescript-package",
+  "bugs": "https://github.com/makenew/coffeescript-package/issues",
+  "repository": "makenew/coffeescript-package",
+  "license": "MIT",
+  "authors": [
+    "Your Name <you@example.com>"
+  ],
   "scripts": {
     "install": "bower install",
     "build": "grunt"
   },
-  "private": true,
+  "files": [
+    "javascripts"
+  ],
   "devDependencies": {
     "bower": "^1.7.2",
     "coffeelint": "^1.14.2",
