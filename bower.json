@@ -12,6 +12,10 @@
   ],
   "license": "MIT",
   "homepage": "https://github.com/makenew/coffeescript-package",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/makenew/coffeescript-package.git"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
