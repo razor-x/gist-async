@@ -3,7 +3,10 @@
 <!--
 [![Bower Version](https://img.shields.io/bower/v/coffeescript-package.svg)](http://bower.io/search/?q=coffeescript-package)
 -->
-[![MIT License](https://img.shields.io/github/license/makenew/coffeescript-package.svg)](./LICENSE.txt)
+<!--
+[![npm](https://img.shields.io/npm/v/makenew-coffeescript-package.svg)](https://www.npmjs.com/package/makenew-coffeescript-package)
+-->
+[![GitHub license](https://img.shields.io/github/license/makenew/coffeescript-package.svg)](./LICENSE.txt)
 [![Dependency Status](https://img.shields.io/gemnasium/makenew/coffeescript-package.svg)](https://gemnasium.com/makenew/coffeescript-package)
 [![Build Status](https://img.shields.io/travis/makenew/coffeescript-package.svg)](https://travis-ci.org/makenew/coffeescript-package)
 
