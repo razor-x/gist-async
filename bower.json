@@ -1,10 +1,10 @@
 {
-  "name": "coffeescript-package",
+  "name": "makenew-coffeescript-package",
   "version": "0.0.0",
-  "description": "Package description.",
+  "description": "CoffeeScript package skeleton.",
   "main": "javascripts/main.coffee",
   "authors": [
-    "Your Name <you@example.com>"
+    "Evan Sosenko <razorx@evansosenko.com>"
   ],
   "keywords": [
     "coffeescript",

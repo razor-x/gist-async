@@ -1,7 +1,7 @@
 {
-  "name": "coffeescript-package",
+  "name": "makenew-coffeescript-package",
   "version": "0.0.0",
-  "description": "Package description.",
+  "description": "CoffeeScript package skeleton.",
   "main": "javascripts/main.coffee",
   "keywords": [
     "coffeescript",
@@ -12,7 +12,7 @@
   "repository": "makenew/coffeescript-package",
   "license": "MIT",
   "authors": [
-    "Your Name <you@example.com>"
+    "Evan Sosenko <razorx@evansosenko.com>"
   ],
   "scripts": {
     "install": "bower install",
