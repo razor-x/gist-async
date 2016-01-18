@@ -15,7 +15,7 @@
     "Evan Sosenko <razorx@evansosenko.com>"
   ],
   "scripts": {
-    "install": "bower install",
+    "prestart": "bower install",
     "start": "grunt",
     "test": "grunt"
   },
