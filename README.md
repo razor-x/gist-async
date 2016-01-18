@@ -127,7 +127,7 @@ $ npm install
 
 ### Grunt
 
-Optionally, you may run addtional development tasks with [Grunt].
+Optionally, you may run additional development tasks with [Grunt].
 Install it with
 
 ```
