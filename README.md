@@ -10,6 +10,8 @@
 
 Bootstrap a new [CoffeeScript] package in less than five minutes.
 
+[CoffeeScript]: http://coffeescript.org/
+
 ### Features
 
 * [Bower] and [npm] package structure.
@@ -18,7 +20,6 @@ Bootstrap a new [CoffeeScript] package in less than five minutes.
 * [EditorConfig].
 * Badges from [Shields.io].
 
-[CoffeeScript]: http://coffeescript.org/
 [EditorConfig]: http://editorconfig.org/
 [Grunt]: http://gruntjs.com/
 [npm]: https://www.npmjs.com/
