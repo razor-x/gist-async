@@ -7,5 +7,3 @@ cache:
     - bower_components
     - node_modules
 sudo: false
-
-script: npm run build

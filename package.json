@@ -16,7 +16,8 @@
   ],
   "scripts": {
     "install": "bower install",
-    "build": "grunt"
+    "start": "grunt",
+    "test": "grunt"
   },
   "files": [
     "javascripts"

@@ -125,6 +125,14 @@ $ npm install
 
 [Node.js]: https://nodejs.org/
 
+### Build
+
+Execute the default build task with
+
+```
+$ npm start
+```
+
 ### Grunt
 
 Optionally, you may run additional development tasks with [Grunt].
