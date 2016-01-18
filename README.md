@@ -1,7 +1,7 @@
 # CoffeeScript Package Skeleton
 
-[![Bower](https://img.shields.io/bower/v/makenew-coffeescript-package.svg)](http://bower.io/search/?q=makenew-coffeescript-package)
 [![npm](https://img.shields.io/npm/v/makenew-coffeescript-package.svg)](https://www.npmjs.com/package/makenew-coffeescript-package)
+[![Bower](https://img.shields.io/bower/v/makenew-coffeescript-package.svg)](http://bower.io/search/?q=makenew-coffeescript-package)
 [![GitHub license](https://img.shields.io/github/license/makenew/coffeescript-package.svg)](./LICENSE.txt)
 [![Dependency Status](https://img.shields.io/gemnasium/makenew/coffeescript-package.svg)](https://gemnasium.com/makenew/coffeescript-package)
 [![Build Status](https://img.shields.io/travis/makenew/coffeescript-package.svg)](https://travis-ci.org/makenew/coffeescript-package)
