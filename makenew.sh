@@ -45,7 +45,7 @@ makenew () {
 
   find_replace "s/CoffeeScript Package Skeleton/${mk_title}/g"
   find_replace "s/CoffeeScript package skeleton\./${mk_description}/g"
-  find_replace "s/2015 Evan Sosenko/${mk_year} ${mk_owner}/g"
+  find_replace "s/2016 Evan Sosenko/${mk_year} ${mk_owner}/g"
   find_replace "s/Evan Sosenko/${mk_author}/g"
   find_replace "s/razorx@evansosenko\.com/${mk_email}/g"
   find_replace "s/makenew\/coffeescript-package/${mk_user}\/${mk_project}/g"
