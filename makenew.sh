@@ -33,6 +33,7 @@ makenew () {
   read -p '> Package title: ' mk_title
   read -p '> Package name (slug): ' mk_slug
   read -p '> Short package description: ' mk_description
+  read -p '> Version number: ' mk_version
   read -p '> Author name: ' mk_author
   read -p '> Author email: ' mk_email
   read -p '> Copyright owner: ' mk_owner
@@ -44,6 +45,8 @@ makenew () {
   sed -i -e "11i ${mk_description}" README.md
   sed -i -e '26d' bower.json
 
+  find_replace "s/version\": \".*\"/version \": \"${mk_version}\"/g"
+  find_replace "s/0\.0\.0\.\.\./${mk_version}.../g"
   find_replace "s/CoffeeScript Package Skeleton/${mk_title}/g"
   find_replace "s/CoffeeScript package skeleton\./${mk_description}/g"
   find_replace "s/2016 Evan Sosenko/${mk_year} ${mk_owner}/g"

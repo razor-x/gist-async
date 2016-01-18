@@ -1,6 +1,6 @@
 {
   "name": "makenew-coffeescript-package",
-  "version": "0.0.0-1",
+  "version": "2.0.0",
   "description": "CoffeeScript package skeleton.",
   "main": "javascripts/main.coffee",
   "keywords": [
