@@ -84,7 +84,7 @@ The recommended method is to add this as a dependency
 to your project using [npm] with
 
 ```
-$ npm Install --save makenew-coffeescript-package
+$ npm install --save makenew-coffeescript-package
 ```
 
 or [Bower] with
@@ -131,7 +131,7 @@ Optionally, you may run addtional development tasks with [Grunt].
 Install it with
 
 ```
-$ npm Install --global grunt-cli
+$ npm install --global grunt-cli
 ```
 
 Run `$ grunt --help` to see all Grunt tasks.
