@@ -42,6 +42,7 @@ makenew () {
 
   sed -i -e '11,79d;164,167d' README.md
   sed -i -e "11i ${mk_description}" README.md
+  sed -i -e '26d' bower.json
 
   find_replace "s/CoffeeScript Package Skeleton/${mk_title}/g"
   find_replace "s/CoffeeScript package skeleton\./${mk_description}/g"

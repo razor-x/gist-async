@@ -23,6 +23,8 @@
     "test",
     "tests",
     "build",
+    "makenew.sh",
+    "package.json",
     "Gruntfile.coffee"
   ]
 }
