@@ -20,6 +20,7 @@ Bootstrap a new [CoffeeScript] package in less than five minutes.
 * [EditorConfig].
 * Badges from [Shields.io].
 
+[Bower]: http://bower.io/
 [EditorConfig]: http://editorconfig.org/
 [Grunt]: http://gruntjs.com/
 [npm]: https://www.npmjs.com/
