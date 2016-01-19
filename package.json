@@ -17,6 +17,7 @@
   "scripts": {
     "prestart": "bower install",
     "start": "grunt",
+    "pretest": "bower install",
     "test": "grunt"
   },
   "files": [
