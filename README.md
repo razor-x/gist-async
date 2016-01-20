@@ -107,7 +107,7 @@ or clone the repository directly.
 ### Source Code
 
 The [makenew-coffeescript-package source] is hosted on GitHub.
-To clone the project run
+Clone the project with
 
 ```
 $ git clone https://github.com/makenew/coffeescript-package.git
