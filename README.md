@@ -8,7 +8,7 @@
 
 ## Description
 
-Bootstrap a new [CoffeeScript] package in less than five minutes.
+Bootstrap a new [CoffeeScript] package in less than a minute.
 
 [CoffeeScript]: http://coffeescript.org/
 
