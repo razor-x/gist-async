@@ -29,9 +29,26 @@ Bootstrap a new [CoffeeScript] package in less than a minute.
 
 ### Bootstrapping a New Project
 
-1. Clone this repository or download a [release][Releases].
+1. Clone the master branch of this repository with
 
-2. Run `./makenew.sh` and follow the prompts.
+   ```
+   $ git clone --single-branch https://github.com/makenew/coffeescript-package.git new-coffeescript-package
+   $ cd new-coffeescript-package
+   ```
+
+   Optionally, reset to the latest [release][Releases] with
+
+   ```
+   $ git reset --hard coffeescript-package-v2.1.1
+   ```
+
+2. Run
+
+   ```
+   $ ./makenew.sh
+   ```
+
+   and follow the prompts.
    This will replace the boilerplate, delete itself,
    and stage changes for commit.
    This script assumes the project repository will be hosted on GitHub.
