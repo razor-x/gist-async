@@ -1,9 +1,9 @@
 ---
 language: node_js
+sudo: false
 node_js:
   - stable
 cache:
   directories:
     - bower_components
     - node_modules
-sudo: false
