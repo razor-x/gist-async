@@ -1,18 +1,12 @@
 ---
 language: node_js
-node_js: [ iojs ]
+sudo: false
+node_js:
+  - stable
 cache:
   directories:
     - bower_components
     - node_modules
-sudo: false
-
-before_script:
-  - npm install -g grunt-cli
-  - npm install -g bower
-  - bower install
-
-script: grunt
 
 deploy:
   provider: releases

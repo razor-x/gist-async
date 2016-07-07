@@ -1,13 +1,10 @@
 # gist-async
 
-[![Bower Version](https://img.shields.io/bower/v/gist-async.svg)](http://bower.io/search/?q=gist-async)
-[![MIT License](https://img.shields.io/github/license/razor-x/gist-async.svg)](./LICENSE.txt)
-[![Dependency Status](https://img.shields.io/gemnasium/razor-x/gist-async.svg)](https://gemnasium.com/razor-x/gist-async)
-[![Build Status](https://img.shields.io/travis/razor-x/gist-async.svg)](https://travis-ci.org/razor-x/gist-async)
-
-by Evan Sosenko
-
-_Load GitHub Gists asynchronously._
+[![npm](https://img.shields.io/npm/v/gist-async.svg)](https://www.npmjs.com/package/gist-async)
+[![Bower](https://img.shields.io/bower/v/gist-async.svg)](http://bower.io/search/?q=gist-async)
+[![GitHub license](https://img.shields.io/github/license/razor-x/gist-async.svg)](./LICENSE.txt)
+[![Gemnasium](https://img.shields.io/gemnasium/razor-x/gist-async.svg)](https://gemnasium.com/razor-x/gist-async)
+[![Travis](https://img.shields.io/travis/razor-x/gist-async.svg)](https://travis-ci.org/razor-x/gist-async)
 
 ## Description
 
@@ -54,53 +51,78 @@ The minimal required markup is
 ## Installation
 
 The recommended method is to add this as a dependency
-to your project using [Bower] with
+to your project using [npm] with
 
-```bash
+```
+$ npm install --save gist-async
+```
+
+or [Bower] with
+
+```
 $ bower install --save gist-async
 ```
 
 Alternatively, you can download a [release][Releases]
 or clone the repository directly.
 
+[Bower]: http://bower.io/
+[npm]: https://www.npmjs.com/
 [Releases]: https://github.com/razor-x/gist-async/releases
 
 ## Development and Testing
 
 ### Source Code
 
-The [gist-async source](https://github.com/razor-x/gist-async)
-is hosted on GitHub.
-To clone the project run
+The [gist-async source] is hosted on GitHub.
+Clone the project with
 
-```bash
+```
 $ git clone https://github.com/razor-x/gist-async.git
 ```
 
+[gist-async source]: https://github.com/razor-x/gist-async
+
 ### Requirements
 
-You will need [npm] with [Grunt] and [Bower].
+You will need [Node.js] with [npm].
 
 Install the development dependencies with
 
-```bash
+```
 $ npm install
-$ bower install
+```
+
+[Node.js]: https://nodejs.org/
+
+### Build
+
+Install any Bower dependencies and have Grunt watch for changes with
+
+```
+$ npm start
 ```
 
 ### Grunt
 
-Run `grunt --help` to see all Grunt tasks.
+Optionally, you may run additional development tasks with [Grunt].
+Install it with
 
 ```
-grunt coffee  # Compile CoffeeScript to JavaScript
-grunt clean   # Remove build directory
-grunt watch   # Have Grunt watch for changes
+$ npm install --global grunt-cli
 ```
 
-[Bower]: http://bower.io/
+Run `$ grunt --help` to see all Grunt tasks.
+
+```
+coffeelint # Validate files with CoffeeLint *
+clean      # Clean files and folders. *
+coffee     # Compile CoffeeScript files into JavaScript *
+watch      # Run predefined tasks whenever watched files change.
+default    # Alias for "clean", "coffeelint", "coffee" tasks.
+```
+
 [Grunt]: http://gruntjs.com/
-[npm]: https://www.npmjs.com/
 
 ## Contributing
 

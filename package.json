@@ -1,11 +1,38 @@
 {
-  "private": true,
+  "name": "gist-async",
+  "version": "1.0.1",
+  "description": "Load GitHub Gists asynchronously.",
+  "main": "javascripts/main.coffee",
+  "keywords": [
+    "coffeescript",
+    "javascript"
+  ],
+  "homepage": "https://github.com/razor-x/gist-async",
+  "bugs": "https://github.com/razor-x/gist-async/issues",
+  "repository": "razor-x/gist-async",
+  "license": "MIT",
+  "authors": [
+    "Evan Sosenko <razorx@evansosenko.com>"
+  ],
+  "scripts": {
+    "prestart": "bower install",
+    "start": "grunt watch",
+    "pretest": "bower install",
+    "test": "grunt"
+  },
+  "files": [
+    "javascripts"
+  ],
   "devDependencies": {
-    "grunt": "^0.4.5",
-    "grunt-contrib-clean": "^0.6.0",
-    "grunt-contrib-coffee": "^0.12.0",
-    "grunt-contrib-uglify": "^0.9.1",
-    "grunt-contrib-watch": "^0.6.1",
-    "load-grunt-tasks": "^3.1.0"
+    "bower": "^1.7.2",
+    "coffeelint": "^1.14.2",
+    "grunt": "^1.0.1",
+    "grunt-cli": "^1.2.0",
+    "grunt-coffeelint": "0.0.16",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-contrib-coffee": "^1.0.0",
+    "grunt-contrib-uglify": "^1.0.1",
+    "grunt-contrib-watch": "^1.0.0",
+    "load-grunt-tasks": "^3.4.0"
   }
 }

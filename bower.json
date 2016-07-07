@@ -1,11 +1,11 @@
 {
   "name": "gist-async",
   "version": "1.0.1",
+  "description": "Load GitHub Gists asynchronously.",
+  "main": "javascripts/main.coffee",
   "authors": [
     "Evan Sosenko <razorx@evansosenko.com>"
   ],
-  "description": "Load GitHub Gists asynchronously.",
-  "main": "javascripts/main.coffee",
   "keywords": [
     "gist",
     "asynchronous",
@@ -14,6 +14,10 @@
   ],
   "license": "MIT",
   "homepage": "https://github.com/razor-x/gist-async",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/razor-x/gist-async.git"
+  },
   "ignore": [
     "**/.*",
     "node_modules",
@@ -21,6 +25,7 @@
     "test",
     "tests",
     "build",
+    "package.json",
     "Gruntfile.coffee"
   ],
   "dependencies": {
