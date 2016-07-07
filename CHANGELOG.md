@@ -9,6 +9,7 @@ This change log follows the conventions of
 
 - Update to jQuery 3.0.0.
 - Update project structure to [makenew/coffeescript-package] v2.2.0.
+- Release on npm.
 
 [makenew/coffeescript-package]: https://github.com/makenew/coffeescript-package
 
