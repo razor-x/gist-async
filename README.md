@@ -39,7 +39,7 @@ Bootstrap a new [CoffeeScript] package in less than a minute.
    Optionally, reset to the latest [release][Releases] with
 
    ```
-   $ git reset --hard coffeescript-package-v2.1.1
+   $ git reset --hard coffeescript-package-v2.2.0
    ```
 
 2. Run
