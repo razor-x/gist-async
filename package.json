@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "prestart": "bower install",
-    "start": "grunt",
+    "start": "grunt watch",
     "pretest": "bower install",
     "test": "grunt"
   },

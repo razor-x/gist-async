@@ -146,7 +146,7 @@ $ npm install
 
 ### Build
 
-Install any Bower dependencies and execute the default build task with
+Install any Bower dependencies and have Grunt watch for changes with
 
 ```
 $ npm start
