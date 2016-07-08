@@ -1,6 +1,6 @@
 {
   "name": "gist-async",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Load GitHub Gists asynchronously.",
   "main": "javascripts/main.coffee",
   "authors": [
