@@ -7,6 +7,7 @@ This change log follows the conventions of
 
 ## [Unreleased]
 
+- Define global function `gistAsync()`.
 - Update to jQuery 3.0.0.
 - Update project structure to [makenew/coffeescript-package] v2.2.0.
 - Release on npm.

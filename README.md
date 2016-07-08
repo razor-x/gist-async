@@ -22,8 +22,17 @@ Based on Mark Selby's [async-gists.js].
 
 **Requires jQuery.**
 
-Include `javascripts/main.coffee` however you like,
-or load the compiled file `js/gist-async.min.js`.
+Include `javascripts/main.coffee` however you like
+or load the compiled file `js/gist-async.min.js`,
+then call the global function, e.g.,
+
+```js
+(function (window, document) {
+  document.addEventListener('DOMContentLoaded', function () {
+    window.gistAsync();
+  })
+})(window, document);
+```
 
 Example markup:
 
