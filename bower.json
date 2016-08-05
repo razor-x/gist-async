@@ -29,6 +29,6 @@
     "Gruntfile.coffee"
   ],
   "dependencies": {
-    "jquery": "~3.0.0"
+    "jquery": "^3.0.0"
   }
 }
