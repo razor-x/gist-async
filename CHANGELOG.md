@@ -5,7 +5,7 @@ This project adheres to [Semantic Versioning](http://semver.org/).
 This change log follows the conventions of
 [keep a CHANGELOG](http://keepachangelog.com/).
 
-## [Unreleased]
+## [2.0.2] / 2016-08-04
 
 - Relax jQuery version.
 
@@ -30,7 +30,7 @@ This change log follows the conventions of
 
 - Initial release.
 
-[Unreleased]: https://github.com/razor-x/gist-async/compare/v2.0.1...HEAD
+[2.0.2]: https://github.com/razor-x/gist-async/compare/v2.0.1...v2.0.2
 [2.0.1]: https://github.com/razor-x/gist-async/compare/v2.0.0...v2.0.1
 [2.0.0]: https://github.com/razor-x/gist-async/compare/v1.0.1...v2.0.0
 [1.0.1]: https://github.com/razor-x/gist-async/compare/v1.0.0...v1.0.1
